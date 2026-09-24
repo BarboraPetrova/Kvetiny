@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.folder == "Květiny/houseplants"
+properties:
+  note.name:
+    displayName: latin
+views:
+  - type: cards
+    name: Zobrazení
+    filters:
+      and:
+        - owner.contains("L")
+    order:
+      - file.name
+    image: note.image
+    imageFit: contain
