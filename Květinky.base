@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Květiny/houseplants"
+    - file.folder == "Kvetiny/houseplants"
 properties:
   note.name:
     displayName: latin
